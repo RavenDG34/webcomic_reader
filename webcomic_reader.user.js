@@ -844,6 +844,7 @@ var defaultSettings = {
 // @include		http*://www.dhscomix.com/scomics*
 // @include		http*://www.dhscomix.com/tcomics*
 // @include		http*://www.dhscomix.com/wcomics*
+// @include		http*://imhentai.com/view*
 
 // ==/UserScript==
 
