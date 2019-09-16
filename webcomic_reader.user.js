@@ -4850,13 +4850,13 @@ var paginas = [
 		img:	[['#gimg']],
 		back:	function(html, pos){
 				var dhs=document.location.href.split("/");
-				var p=parseInt(dhs[dhs.length-1]);
+				var p=parseInt(dhs[dhs.length-2]);
 				if(p<=1) { return ''; }
 				return dhs.slice(0,5).join("/")+"/"+(p+pos-1)+"/";
 				},
 		next:	function(html, pos){
 				var dhs=document.location.href.split("/");
-				var p=parseInt(dhs[dhs.length-1]);
+				var p=parseInt(dhs[dhs.length-2]);
 				return dhs.slice(0,5).join("/")+"/"+(p+pos+1)+"/";
 				},
 		first:	function(html){
