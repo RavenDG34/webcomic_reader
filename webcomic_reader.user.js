@@ -959,7 +959,6 @@ var usarb64 = confBool('b64_images', false);
 */
 
 var paginas = [
-
 	{	url:	'penny-arcade.com',
 		img:	[['#comicFrame img']],
 		fixurl:	function(url, img, link, pos){return url.replace("http:","");},
@@ -4845,8 +4844,7 @@ var paginas = [
 				setEvt(elemImagen, 'mousemove', imgCursor);
 				},
 	},
-	{
-		url:	'https://imhentai.com/view/',
+	{	url:	'https://imhentai.com/view/',
 		img:	[['#gimg']],
 		back:	function(html, pos){
 				var dhs=document.location.href.split("/");
